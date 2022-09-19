@@ -1,0 +1,39 @@
+section {
+  margin: 80px 200px;
+}
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin: 0px;
+}
+
+header {
+  background-image: url("../imagen/apple-pie.jpg");
+  text-align: center;
+  color: white;
+  padding: 200px;
+  margin: 0px;
+  font-size: 42px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#description {
+  font-size: 22px;
+  font-weight: 100;
+}
+
+hr {
+  height: 2px;
+  width: 75%;
+  background-color: black;
+}
+
+ul li::marker {
+  content: "-";
+}
